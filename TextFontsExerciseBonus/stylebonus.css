@@ -1,14 +1,17 @@
-body { font-family: 'Orbitron', sans-serif;
-    font-family: 'Roboto', sans-serif;}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body { 
+    font-family: 'Orbitron', sans-serif;
+    
+}
+/* :root also works ot html{} also works*/
     span {
         font-weight: bold;
     }
     h1 {
-      font-size: 50px; letter-spacing: 10px; text-align: center; text-transform: uppercase ;
+      font-size: 50px; letter-spacing: 10px; text-align: center; text-transform: uppercase ; text-decoration: underline;
     }
-    h1 {
-        text-decoration: underline;
-    }
+    
     #series-movies {
         font-size: 20px;
     }
@@ -18,7 +21,8 @@ body { font-family: 'Orbitron', sans-serif;
     li {
        line-height: 2; 
     }
-    #ccharacters {
+
+    #characters {
         font-size: 18px;
     }
     h4 {
@@ -32,10 +36,12 @@ body { font-family: 'Orbitron', sans-serif;
     }
     li {
         font-size: 1rem;
-    }
+    } 
     body {
         background-image:url(starTrek.jpg) ; background-position: center;background-size: cover;
-    }
-    body {
         color: rgba(255, 255, 255, 0.6);
+        background-attachment: fixed;
     }
+    /* background attachment:fixed works for keeping the background stable while moving the other elements*/
+    
+
